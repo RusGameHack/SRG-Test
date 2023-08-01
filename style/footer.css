@@ -1,0 +1,14 @@
+footer {
+    background: var(--main-color-first);
+    color: var(--main-color-second);
+}
+footer a {
+    color: var(--main-color-second);
+    font-weight: 700;
+    transition: .2s all;
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--main-color-second);
+    text-decoration: underline;
+}

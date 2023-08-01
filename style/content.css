@@ -1,0 +1,35 @@
+.content {
+    min-height: 100vh;
+}
+.title {
+    text-align: left;
+}
+.btn {
+    display: block;
+    background: var(--main-color-first-opacity);
+    color: var(--main-color-second);
+    border-radius: 10px;
+    border: unset;
+    outline: unset;
+}
+.content-cause-popup {
+    width: 55%;
+    max-width: 360px;
+    min-width: 280px;
+}
+
+
+@media(max-width: 576px) {
+    .title {
+        text-align: center;
+        text-wrap: balance;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

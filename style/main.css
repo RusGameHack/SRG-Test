@@ -1,0 +1,29 @@
+
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+@import url("popups.css");
+:root {
+    --main-color-first: #7952b3;
+    --main-color-first-opacity: #7952b3e0;
+    --main-color-second: white;
+    --main-color-dark-second: rgb(177, 177, 177);
+}
+@font-face {
+	font-family: 'SF'; 
+	src: url(../fonts/SFProText-Medium.ttf); 
+    font-weight: 400;
+}
+@font-face {
+	font-family: 'SF'; 
+	src: url(../fonts/SFProText-Bold.ttf); 
+    font-weight: 700;
+}
+body {
+    font-family: 'SF';
+    font-weight: 400;
+}
+h1, h2, h3 {
+    font-family: 'SF';
+    font-weight: 700;
+}
